@@ -49,6 +49,8 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="adapters\ImageAdapter.cs" />
+    <Compile Include="activities\NewPlayerActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -63,9 +65,22 @@
     <AndroidResource Include="Resources\mipmap-xhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\values\theme.xml" />
+    <AndroidResource Include="Resources\layout\NewPlayer.axml" />
+    <AndroidResource Include="Resources\layout\Adapter_ImageView.axml" />
+    <AndroidResource Include="Resources\drawable\sample_0.jpg" />
+    <AndroidResource Include="Resources\drawable\sample_1.jpg" />
+    <AndroidResource Include="Resources\drawable\sample_2.jpg" />
+    <AndroidResource Include="Resources\drawable\sample_3.jpg" />
+    <AndroidResource Include="Resources\drawable\sample_4.jpg" />
+    <AndroidResource Include="Resources\drawable\sample_5.jpg" />
+    <AndroidResource Include="Resources\drawable\sample_6.jpg" />
+    <AndroidResource Include="Resources\drawable\sample_7.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
+    <Folder Include="adapters\" />
+    <Folder Include="activities\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

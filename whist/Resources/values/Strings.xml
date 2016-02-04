@@ -4,4 +4,5 @@
 	<string name="app_name">whist</string>
 	<string name="id">whist</string>
 	<string name="btnNext">Next</string>
+	<string name="insertName">Insert Name</string>
 </resources>

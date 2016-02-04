@@ -7,8 +7,6 @@ namespace whist
 	[Activity (Label = "whist", MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : Activity
 	{
-		int count = 1;
-
 		protected override void OnCreate (Bundle savedInstanceState)
 		{
 			base.OnCreate (savedInstanceState);
@@ -18,11 +16,18 @@ namespace whist
 
 			// Get our button from the layout resource,
 			// and attach an event to it
-			Button button = FindViewById<Button> (Resource.Id.btnNext);
-			
-			button.Click += delegate {
-				button.Text = string.Format ("{0} clicks!", count++);
-			};
+//			Button button = FindViewById<Button> (Resource.Id.btnNext);
+//			
+//			button.Click += delegate {
+//				button.Text = string.Format ("{0} clicks!", count++);
+//			};
+
+//			var gridview = FindViewById<GridView> (Resource.Id.gridview);
+//			gridview.Adapter = new ImageAdapter (this);
+//
+//			gridview.ItemClick += delegate (object sender, AdapterView.ItemClickEventArgs args) {
+//				Toast.MakeText (this, args.Position.ToString (), ToastLength.Short).Show ();
+//			};
 		}
 	}
 }
