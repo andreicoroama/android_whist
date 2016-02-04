@@ -5,4 +5,5 @@
 	<string name="id">whist</string>
 	<string name="btnNext">Next</string>
 	<string name="insertName">Insert Name</string>
+	<string name="finish">Finish</string>
 </resources>

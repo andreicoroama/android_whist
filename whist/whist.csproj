@@ -67,7 +67,6 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
     <AndroidResource Include="Resources\values\theme.xml" />
     <AndroidResource Include="Resources\layout\NewPlayer.axml" />
-    <AndroidResource Include="Resources\layout\Adapter_ImageView.axml" />
     <AndroidResource Include="Resources\drawable\sample_0.jpg" />
     <AndroidResource Include="Resources\drawable\sample_1.jpg" />
     <AndroidResource Include="Resources\drawable\sample_2.jpg" />

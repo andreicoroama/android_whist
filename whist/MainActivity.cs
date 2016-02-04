@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace whist
 {
-	[Activity (Label = "whist", MainLauncher = true, Icon = "@mipmap/icon")]
+	[Activity (Label = "whist", Icon = "@mipmap/icon")]
 	public class MainActivity : Activity
 	{
 		protected override void OnCreate (Bundle savedInstanceState)

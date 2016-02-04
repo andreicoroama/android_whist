@@ -97,6 +97,9 @@ namespace whist
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f080006
+			public const int btnFinish = 2131230726;
+			
 			// aapt resource value: 0x7f080003
 			public const int btnNext = 2131230723;
 			
@@ -129,13 +132,10 @@ namespace whist
 		{
 			
 			// aapt resource value: 0x7f040000
-			public const int Adapter_ImageView = 2130968576;
+			public const int Main = 2130968576;
 			
 			// aapt resource value: 0x7f040001
-			public const int Main = 2130968577;
-			
-			// aapt resource value: 0x7f040002
-			public const int NewPlayer = 2130968578;
+			public const int NewPlayer = 2130968577;
 			
 			static Layout()
 			{
@@ -171,6 +171,9 @@ namespace whist
 			
 			// aapt resource value: 0x7f050003
 			public const int btnNext = 2131034115;
+			
+			// aapt resource value: 0x7f050005
+			public const int finish = 2131034117;
 			
 			// aapt resource value: 0x7f050000
 			public const int hello = 2131034112;

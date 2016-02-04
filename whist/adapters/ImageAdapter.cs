@@ -26,7 +26,7 @@ namespace whist
 
 			if (convertView == null) {  // if it's not recycled, initialize some attributes
 				imageView = new ImageView (context);
-				imageView.LayoutParameters = new GridView.LayoutParams (85, 85);
+				imageView.LayoutParameters = new GridView.LayoutParams (120, 120);
 				imageView.SetScaleType (ImageView.ScaleType.CenterCrop);
 				imageView.SetPadding (8, 8, 8, 8);
 			} else {
@@ -54,14 +54,7 @@ namespace whist
 			Resource.Drawable.sample_2, Resource.Drawable.sample_3,
 			Resource.Drawable.sample_4, Resource.Drawable.sample_5,
 			Resource.Drawable.sample_6, Resource.Drawable.sample_7,
-			Resource.Drawable.sample_0, Resource.Drawable.sample_1,
-			Resource.Drawable.sample_2, Resource.Drawable.sample_3,
-			Resource.Drawable.sample_4, Resource.Drawable.sample_5,
-			Resource.Drawable.sample_6, Resource.Drawable.sample_7,
-			Resource.Drawable.sample_0, Resource.Drawable.sample_1,
-			Resource.Drawable.sample_2, Resource.Drawable.sample_3,
-			Resource.Drawable.sample_4, Resource.Drawable.sample_5,
-			Resource.Drawable.sample_6, Resource.Drawable.sample_7
+			Resource.Drawable.sample_0, Resource.Drawable.sample_1
 		};
 	}
 }
