@@ -1,6 +1,8 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
+using Android.Content;
+using Android.Preferences;
 
 namespace whist
 {
@@ -28,6 +30,17 @@ namespace whist
 //			gridview.ItemClick += delegate (object sender, AdapterView.ItemClickEventArgs args) {
 //				Toast.MakeText (this, args.Position.ToString (), ToastLength.Short).Show ();
 //			};
+
+			ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(this); 
+
+			string name = prefs.GetString ("UserName", "");
+			string avatar = prefs.GetString ("UserAvatar", "");
+
+			ImageView imgAvatar = FindViewById<ImageView> (Resource.Id.imgAvatar);
+			imgAvatar.SetImageResource (int.Parse(avatar));
+
+			TextView txtName = FindViewById<TextView> (Resource.Id.lblName);
+			txtName.Text = name;
 		}
 	}
 }

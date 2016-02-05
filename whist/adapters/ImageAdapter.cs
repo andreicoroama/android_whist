@@ -17,7 +17,7 @@ namespace whist
 
 		public override long GetItemId (int position)
 		{
-			return 0;
+			return thumbIds [position];
 		}
 
 		public override Android.Views.View GetView (int position, Android.Views.View convertView, Android.Views.ViewGroup parent)
@@ -33,7 +33,7 @@ namespace whist
 				imageView = (ImageView)convertView;
 			}
 
-			imageView.SetImageResource (thumbIds[position]);
+			imageView.SetImageResource (thumbIds [position]);
 			return imageView;
 		}
 
