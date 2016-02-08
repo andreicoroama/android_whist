@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Android.App;
 using Android.OS;
 using Android.Widget;
@@ -56,9 +56,8 @@ namespace whist
 			var player = JsonConvert.SerializeObject (user);
 
 			//to write some code for 
-			int userInt = 0;
 
-			editor.PutString ("User" + userInt , player);
+			editor.PutString (user.ID.ToString() , player);
 
 			editor.Apply();
 		}
