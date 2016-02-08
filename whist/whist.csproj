@@ -88,6 +88,7 @@
     <Folder Include="activities\" />
     <Folder Include="Models\" />
     <Folder Include="Preferences\" />
+    <Folder Include="Data\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

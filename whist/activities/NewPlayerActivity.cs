@@ -4,6 +4,7 @@ using Android.OS;
 using Android.Widget;
 using Android.Content;
 using Android.Preferences;
+using Newtonsoft.Json;
 
 namespace whist
 {
@@ -51,9 +52,13 @@ namespace whist
 			ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(this); 
 			ISharedPreferencesEditor editor = prefs.Edit();
 
-			editor.PutString ("UserID", user.ID.ToString ());
-			editor.PutString ("UserAvatar", user.Avatar);
-			editor.PutString ("UserName", user.Name);
+
+			var player = JsonConvert.SerializeObject (user);
+
+			//to write some code for 
+			int userInt = 0;
+
+			editor.PutString ("User" + userInt , player);
 
 			editor.Apply();
 		}
